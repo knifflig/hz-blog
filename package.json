@@ -1,18 +1,24 @@
 {
-  "name": "hz-blog",
-  "type": "module",
-  "version": "0.0.1",
+  "name": "@storyblok/astro-playground",
+  "version": "0.0.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "preview": "astro preview"
   },
-  "dependencies": {
-    "@astrojs/tailwind": "^5.0.0",
-    "@storyblok/astro": "^3.0.0",
-    "astro": "^3.0.12",
-    "tailwindcss": "^3.3.3"
+  "devDependencies": {
+    "@astrojs/react": "3.0.2",
+    "@astrojs/svelte": "4.0.2",
+    "@astrojs/tailwind": "5.0.0",
+    "tailwindcss": "^3.3.3",
+    "@astrojs/vue": "^3.0.0",
+    "@storyblok/astro": "3.0.0",
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "astro": "3.0.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "svelte": "^4.2.0",
+    "vue": "^3.3.4"
   }
 }
